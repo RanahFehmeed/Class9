@@ -29,5 +29,6 @@ public class LoginTestClass {
 	@AfterTest
 	public void tearDown() {
 		driver.quit();
+		driver.close();
 	}
 }
